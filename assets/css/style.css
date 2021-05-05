@@ -10,15 +10,15 @@
 }
 
 #photography {
-	background-color: #4D4D4D;
+	background-color: #252525;
 }
 
 #design {
-	background-color: #979797;
+	background-color: #252525;
 }
 
 #about {
-	background-color: #BDBDBD;
+	background-color: #252525;
 }
 
 /* Navbar settings */
@@ -38,6 +38,12 @@
     color: #aaaaaa;
 }
 
+.animation {
+	animation: load-in 400ms ease-in 400ms;
+	opacity: 0;
+	animation-fill-mode: forwards;
+}
+
 /* List settings */
 .list {
 	text-decoration: none;
@@ -46,6 +52,11 @@
 	animation: load-in 400ms ease-in 400ms;
 	opacity: 0;
 	animation-fill-mode: forwards;
+}
+
+.list:hover {
+	font-size: 2rem;
+	color: #aaaaaa;
 }
 
 /* General text settings */
@@ -115,6 +126,17 @@
 	background: white; }
 .owl-1 .owl-dots .owl-dot:active, .owl-1 .owl-dots .owl-dot:focus {
 	outline: none; }
+
+/* ---- particles.js container ---- */
+#particles-js {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: #252525;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 50% 50%;
+}
 
 /* Load-in animation for elements*/
 @keyframes load-in {
