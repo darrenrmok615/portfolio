@@ -5,7 +5,7 @@ $(function() {
     loop:true,
     margin:0,
     nav:true,
-    items: 1,
+    items: 2,
     smartSpeed: 1000,
     autoplay: true,
     autoplayHoverPause: true,
